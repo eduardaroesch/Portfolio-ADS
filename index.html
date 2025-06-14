@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Eduarda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Eduarda Roesch da Silva</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Eduarda Roesch da Silva</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="clickMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#sobre-mim" onclick="clickMenu()">Sobre Mim</a></li>
+          <li><a href="#educacao" onclick="clickMenu()">Educação</a></li>
+          <li><a href="#projetos" onclick="clickMenu()">Projetos</a></li>
+          <li><a href="#contato" onclick="clickMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="perfil">
+        <div class="section_foto-container">
+            <img src="assets/foto-perfil.png" alt="Foto de Perfil da Eduarda">
+        </div>
+        <div class="section_texto">
+            <p class="section_texto_p1">Olá! Meu nome é</p>
+            <h1 class="title">Eduarda Roesch da Silva</h1>
+            <p class="section_texto_p2">sou estudante de ADS - Uninter</p>
+        <div class="botao-container">
+            <button
+                class="btn btn-cor-2"
+                onclick="window.open('./assets/resume-example.pdf', '_blank')">
+                Abrir Currículo
+            </button>
+            <button
+                class="btn btn-cor-1"
+                onclick="location.href='#contato'">
+                Informações de Contato
+            </button>
+        </div>
+        <div id="redes_sociais-container">
+              <img
+                  src="./assets/linkedin.png"
+                  alt="Meu Perfil do Linkedin"
+                  class="icone"
+                  onclick="window.open('https://linkedin.com/', '_blank')"/>
+              <img
+                  src="./assets/github.png"
+                  alt="Meu Perfil do GitHub"
+                  class="icone"
+                  onclick="window.open('https://github.com/','_blank')"/>
+        </div>
+        </div>
+    </section>
+    <section id="sobre-mim">
+      <p class="section_texto_p1">Saiba mais</p>
+      <h1 class="title">Sobre Mim</h1>
+      <div class="section-container">
+        <div class="section_foto-container">
+          <img src="assets/foto-perfil2.png" alt="Foto de Perfil" class="sobre-foto">
+        </div>
+        <div class="detalhes-sobre-container">
+          <div class="sobre-containers">
+            <div class="detalhes-container">
+              <img src="assets/experience.png" alt="experiencias-icone" class="icone"/>
+              <h3>Experiência</h3>
+              <p>2+ anos <br> Front-end Development</p>
+            </div>
+            <div class="detalhes-container">
+              <img src="assets/education.png" alt="educacao-icone" class="icone"/>
+              <h3>Educação</h3>
+              <p>Ensino Médio Completo <br> Cursando Análise e Desenvolvimento de Sistemas</p>
+            </div>
+          </div>
+          <div class="texto-container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ea neque sed facilis porro numquam, accusantium tenetur? Iste, molestiae deleniti nesciunt obcaecati vero suscipit quas laudantium dolorum ad voluptatibus. Error natus cumque, qui quod architecto nesciunt ipsa, adipisci beatae et nulla expedita voluptatum ducimus. Architecto aperiam accusamus repudiandae laudantium?
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="assets/arrow.png" alt="Ícone de seta" class="icone seta" onclick="location.href='#projetos'">
+    </section>
+    <section id="experiencia">
+      <p class="section_texto_p1">Explore Minha</p>
+      <h1 class="title">Experiência</h1>
+      <div class="experiencia-detalhes-container">
+        <div class="sobre-containers">
+          <div class="detalhes-container">
+            <h2 class="experiencia-sub-titulo">Fronted Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="detalhes-container">
+            <h2 class="experiencia-sub-titulo">Back-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icone">
+                <div>
+                  <h3>Git</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="assets/arrow.png" alt="Ícone de seta" class="icone-seta" onclick="location.href='#projetos'">
+    </section>
+    <section id="projetos">
+      <p class="section_texto_p1">Navegue pelos meus recentes</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experiencia-detalhes-container">
+        <div class="sobre-containers">
+        <div class="detalhes-container cor-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Projeto 1" class="projeto-img">
+          </div>
+          <h2 class="experiencia-sub-titulo projeto-titulo">Projeto Um</h2>
+          <div class="botao-container">
+            <button class="btn btn-cor-2 projeto-btn" onclick="location.href='https://github.com'">
+              GitHub
+            </button>
+          </div>
+        </div>
+        <div class="detalhes-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Projeto 2" class="projeto-img">
+          </div>
+          <h2 class="experiencia-sub-titulo projeto-title">Projeto Dois</h2>
+          <div class="botao-container">
+            <button class="btn btn-cor-2 projeto-btn" onclick="location.href='https://github.com'">
+              GitHub
+            </button>
+          </div>
+        </div>
+        <div class="detalhes-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Projeto 3" class="projeto-img">
+          </div>
+          <h2 class="experiencia-sub-titulo projeto-title">Projeto Três</h2>
+          <div class="botao-container">
+            <button class="btn btn-cor-2 projeto-btn" onclick="location.href='https://github.com'">
+              GitHub
+            </button>
+          </div>
+        </div> 
+      </div>
+      </div>
+      <img src="assets/arrow.png" alt="Ícone de seta" class="icone-seta" onclick="location.href='#projetos'">
+    </section>
+    <section id="contato">
+      <p class="section_texto_p1">Entre em</p>
+      <h1 class="title">Contato</h1>
+      <div class="info-contato-conteiner-superior">
+        <div class="info-contato-conteiner">
+          <img src="./assets/email.png" alt="Ícone de email" class="icone icone-contato email-icone">
+          <p><a href="mailto:eduarda.roescch@gmail.com">eduarda.roescch@gmail.com</a></p>
+        </div>
+        <div class="info-contato-conteiner">
+          <img src="./assets/linkedin.png" alt="Ícone do Linkedin" class="icone icone-contato">
+          <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+      <form class="formulario-contato" action="mailto:eduarda.roescch@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+        <button type="submit" class="btn btn-cor-1">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#experiencia">Educação</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Eduarda Roesch da Silva. Todos os direitos reservados.</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
